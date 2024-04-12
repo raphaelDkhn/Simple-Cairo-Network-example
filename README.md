@@ -18,7 +18,7 @@ The repository is organized as follows:
 -  **Program Arguments**: Arguments for each Cairo program are found in [model/program_args](model/program_args).
 -  **VM Results**: Generated trace and memory files are stored in [model/vm_results](model/vm_results)
 
-## Generating Traces and Memory Files
+## Generating Traces and Memory Files (in proof mode)
 To generate the traces and memory files, follow these steps:
 ### Compile Cairo Programs
 Navigate to each program directory and compile:
@@ -30,7 +30,7 @@ scarb build
 cd model/cairo_programs/node1
 scarb build
 ```
-### Run the Cairo VM in proof mode
+### Run the Cairo VM
 From the root of the repository, execute:
 ```shell
 cargo run
