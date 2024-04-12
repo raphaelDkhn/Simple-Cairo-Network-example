@@ -8,3 +8,9 @@ edition = "2021"
 
 [dependencies]
 cairo_runner = { path = "./cairo_runner" }
+cairo-lang-sierra = { version = "2.6.3", default-features = false }
+serde_json = { version = "1.0", features = [
+    "arbitrary_precision",
+    "alloc",
+], default-features = false }
+serde = { version = "1.0", features = ["derive"] }
