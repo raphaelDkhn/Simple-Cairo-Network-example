@@ -8,7 +8,7 @@ Ensure you have the following installed:
 - [Scarb 2.6.4](https://docs.swmansion.com/scarb/download.html)
 
 ## ML model graph
-Below is a visual representation of the ML model graph:
+Here is a visual representation of the ML model graph:
 ![Model graph](images/simple_network.onnx.png)
 
 ## Repo structure
