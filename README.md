@@ -40,8 +40,7 @@ The trace and memory files will be generated in the [vm_result](model/vm_results
 
 ## Recursive Proving Plan (Entirely Offchain)
 
-Each node of the network (Gemm and Relu operations) is handled by a separate Cairo program. The idea is to reduce the computational complexity of a Cairo program into small programs, and to prove all the nodes of the graph in parallel. Then use recursive prooving to merge the proofs and assert that the output of a node equals the input of the correlated node. 
-
+We have chosen to represent each node of the network (Gemm and Relu operations) by separate Cairo programs. As the idea is to reduce the computational complexity of a Cairo program into small programs, and to prove all the nodes of the graph in parallel. Then we want to use recursive proving to merge the proofs and assert that the output of a node is equal to the input of the correlated node. 
 
 Below is a diagram illustrating this concept:
 ![Recursive Schema](images/recursive_schema.png)
