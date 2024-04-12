@@ -35,8 +35,8 @@ From the root of the repository, execute:
 ```shell
 cargo run
 ```
-### Get The Traces
-The trace and memory files will be generated in the [vm_result](model/vm_results/) directory.
+### Find The Trace Files
+The trace and memory files are generated in the [vm_result](model/vm_results/) directory.
 
 ## Recursive Proving Plan (Entirely Offchain)
 
