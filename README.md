@@ -19,7 +19,7 @@ The repository is organized as follows:
 -  **VM Results**: Generated trace and memory files are stored in [model/vm_results](model/vm_results)
 
 ## Generating Traces and Memory Files
-To generate the required traces and memory files, follow these steps:
+To generate the traces and memory files, follow these steps:
 1. **Compile Cairo Programs**
 Navigate to each program directory and compile:
 ```shell
@@ -30,12 +30,12 @@ scarb build
 cd model/cairo_programs/node1
 scarb build
 ```
-2. Run the Cairo VM in proof mode
+1. Run the Cairo VM in proof mode
 From the root of the repository, execute:
 ```shell
 cargo run
 ```
-3. Get The Traces
+1. Get The Traces
 The trace and memory files will be generated in the [vm_result](model/vm_results/) directory.
 
 ## Recursive Proving Plan (Entirely Offchain)
