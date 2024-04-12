@@ -1,3 +1,4 @@
+workspace = { members = ["cairo_runner"] }
 [package]
 name = "simple_network_example"
 version = "0.1.0"
@@ -6,3 +7,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cairo_runner = { path = "./cairo_runner" }
